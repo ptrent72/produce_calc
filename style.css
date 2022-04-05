@@ -149,9 +149,21 @@ figcaption {
 .freshdirect,
 .amazon {
     margin: 5px 0;
-    display: none;
+    display: block;
 }
 
+.cheap {
+    font-weight: bold;
+    color: #087c08;
+    font-size: 2em;
+}
+
+.cheap:after {
+    font-family: FontAwesome;
+    content: "\f00c";
+    font-size: 2em;
+    margin-left: 5px;
+}
 
 /**
 * Remove  the  default margin on the H3
